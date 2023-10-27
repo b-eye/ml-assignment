@@ -1,0 +1,495 @@
+
+
+
+---------------------------------------- 
+
+Testing Model ner_model_250it_15_drp_long_pn
+
+Test Case [0]
+[Automatic Test]  Products matched:      5/21
+[Revisioned Test] Products matched:      0/2
+Product Name as in Website:              Factory Buys 32cm Euro Top Mattress - King
+Words in the product name to look for:   {'cart', 'leather', 'pet', 'marble', 'king', 'white', 'black', 'dining', 'wooden', 'round', 'factory', 'led', 'storage', 'euro', 'platform', 'outdoor', 'frame', 'size', 'mattress', 'buys', '32cm'}
+Words found in the whole text:           {'outdoor', 'led', 'storage', 'pet', 'round'}
+----------------
+Test Case [1]
+[Automatic Test]  Products matched:      7/11
+[Revisioned Test] Products matched:      2/2
+Product Name as in Website:              Beadlight Cirrus LED Reading Light
+Words in the product name to look for:   {'sconce', 'outdoor', 'cart', 'finish', 'leather', 'led', 'black', 'beadlight', 'cirrus', 'light', 'reading'}
+Words found in the whole text:           {'sconce', 'outdoor', 'cart', 'leather', 'black', 'light', 'reading'}
+----------------
+Test Case [2]
+[Automatic Test]  Products matched:      5/11
+[Revisioned Test] Products matched:      1/2
+Product Name as in Website:              Hamar Plant Stand - Ash
+Words in the product name to look for:   {'hamar', 'plant', 'cart', 'ash', 'brand', 'room', 'cushion', 'solid', 'modern', 'platform', 'small'}
+Words found in the whole text:           {'plant', 'cart', 'room', 'modern', 'small'}
+----------------
+Test Case [3]
+[Automatic Test]  Products matched:      4/12
+[Revisioned Test] Products matched:      0/1
+Product Name as in Website:              
+Words in the product name to look for:   {'coffee', 'chairs', '28m', 'gold', 'living', 'tv', 'dining', 'modern', 'sofa', 'tables', 'yukon', 'cabinet'}
+Words found in the whole text:           {'coffee', 'gold', 'living', 'tv'}
+----------------
+Test Case [4]
+[Automatic Test]  Products matched:      14/16
+[Revisioned Test] Products matched:      2/6
+Product Name as in Website:              Alexander 3 Seater Sofa / Simja 6 Piece Alfresco Setting / Recycled Pine TV Cabinet / Yukon 2.8m Dining Table
+Words in the product name to look for:   {'planters', 'coat', 'lounge', 'coffee', 'outdoor', 'cart', 'room', 'chairs', 'divider', 'hall', 'dining', 'tables', 'contemporary', 'office', 'rack', 'tv'}
+Words found in the whole text:           {'planters', 'coat', 'coffee', 'outdoor', 'cart', 'chairs', 'divider', 'hall', 'dining', 'tables', 'contemporary', 'office', 'rack', 'tv'}
+----------------
+
+
+
+Avg Accuracy of ner_model_250it_15_drp_long_pn: 0.8741341991341992
+---------------------------------------- 
+
+
+
+
+---------------------------------------- 
+
+Testing Model ner_model_250it_15_drp_short_pn
+
+Test Case [0]
+[Automatic Test]  Products matched:      7/22
+[Revisioned Test] Products matched:      0/2
+Product Name as in Website:              Factory Buys 32cm Euro Top Mattress - King
+Words in the product name to look for:   {'cart', 'leather', 'table', 'pet', 'marble', 'king', 'white', 'black', 'dining', 'round', 'bed', 'factory', 'led', 'storage', 'euro', 'platform', 'outdoor', 'frame', 'size', 'mattress', 'buys', '32cm'}
+Words found in the whole text:           {'king', 'outdoor', 'led', 'storage', 'round', 'platform', 'factory'}
+----------------
+Test Case [1]
+[Automatic Test]  Products matched:      8/13
+[Revisioned Test] Products matched:      2/2
+Product Name as in Website:              Beadlight Cirrus LED Reading Light
+Words in the product name to look for:   {'sconce', 'outdoor', 'cart', 'finish', 'leather', 'wall', 'led', 'black', 'beadlight', 'cirrus', 'light', 'bed', 'reading'}
+Words found in the whole text:           {'sconce', 'outdoor', 'cart', 'leather', 'wall', 'light', 'finish', 'reading'}
+----------------
+Test Case [2]
+[Automatic Test]  Products matched:      6/13
+[Revisioned Test] Products matched:      2/2
+Product Name as in Website:              Hamar Plant Stand - Ash
+Words in the product name to look for:   {'hamar', 'plant', 'cart', 'gift', 'brand', 'ash', 'room', 'cushion', 'stand', 'solid', 'modern', 'platform', 'small'}
+Words found in the whole text:           {'plant', 'cart', 'brand', 'stand', 'platform', 'small'}
+----------------
+Test Case [3]
+[Automatic Test]  Products matched:      2/11
+[Revisioned Test] Products matched:      0/1
+Product Name as in Website:              
+Words in the product name to look for:   {'coffee', '28m', 'gold', 'living', 'tv', 'dining', 'modern', 'sofa', 'table', 'yukon', 'cabinet'}
+Words found in the whole text:           {'gold', 'living'}
+----------------
+Test Case [4]
+[Automatic Test]  Products matched:      13/15
+[Revisioned Test] Products matched:      2/6
+Product Name as in Website:              Alexander 3 Seater Sofa / Simja 6 Piece Alfresco Setting / Recycled Pine TV Cabinet / Yukon 2.8m Dining Table
+Words in the product name to look for:   {'planters', 'coat', 'lounge', 'coffee', 'outdoor', 'cart', 'room', 'divider', 'wall', 'hall', 'dining', 'contemporary', 'office', 'rack', 'tv'}
+Words found in the whole text:           {'planters', 'coat', 'coffee', 'outdoor', 'cart', 'divider', 'wall', 'hall', 'dining', 'contemporary', 'office', 'rack', 'tv'}
+----------------
+
+
+
+Avg Accuracy of ner_model_250it_15_drp_short_pn: 0.9553846153846154
+---------------------------------------- 
+
+
+
+
+---------------------------------------- 
+
+Testing Model ner_model_250it_35_drp_long_pn
+
+Test Case [0]
+[Automatic Test]  Products matched:      4/21
+[Revisioned Test] Products matched:      0/2
+Product Name as in Website:              Factory Buys 32cm Euro Top Mattress - King
+Words in the product name to look for:   {'cart', 'leather', 'pet', 'marble', 'king', 'white', 'black', 'dining', 'wooden', 'round', 'factory', 'led', 'storage', 'euro', 'platform', 'outdoor', 'frame', 'size', 'mattress', 'buys', '32cm'}
+Words found in the whole text:           {'pet', 'storage', 'outdoor', 'cart'}
+----------------
+Test Case [1]
+[Automatic Test]  Products matched:      7/11
+[Revisioned Test] Products matched:      2/2
+Product Name as in Website:              Beadlight Cirrus LED Reading Light
+Words in the product name to look for:   {'sconce', 'outdoor', 'cart', 'finish', 'leather', 'led', 'black', 'beadlight', 'cirrus', 'light', 'reading'}
+Words found in the whole text:           {'sconce', 'outdoor', 'cart', 'leather', 'black', 'light', 'reading'}
+----------------
+Test Case [2]
+[Automatic Test]  Products matched:      3/11
+[Revisioned Test] Products matched:      1/2
+Product Name as in Website:              Hamar Plant Stand - Ash
+Words in the product name to look for:   {'hamar', 'plant', 'cart', 'ash', 'brand', 'room', 'cushion', 'solid', 'modern', 'platform', 'small'}
+Words found in the whole text:           {'modern', 'plant', 'cart'}
+----------------
+Test Case [3]
+[Automatic Test]  Products matched:      3/12
+[Revisioned Test] Products matched:      0/1
+Product Name as in Website:              
+Words in the product name to look for:   {'coffee', 'chairs', '28m', 'gold', 'living', 'tv', 'dining', 'modern', 'sofa', 'tables', 'yukon', 'cabinet'}
+Words found in the whole text:           {'coffee', 'gold', 'living'}
+----------------
+Test Case [4]
+[Automatic Test]  Products matched:      13/16
+[Revisioned Test] Products matched:      1/6
+Product Name as in Website:              Alexander 3 Seater Sofa / Simja 6 Piece Alfresco Setting / Recycled Pine TV Cabinet / Yukon 2.8m Dining Table
+Words in the product name to look for:   {'planters', 'coat', 'lounge', 'coffee', 'outdoor', 'cart', 'room', 'chairs', 'divider', 'hall', 'dining', 'tables', 'contemporary', 'office', 'rack', 'tv'}
+Words found in the whole text:           {'planters', 'coat', 'coffee', 'outdoor', 'cart', 'chairs', 'divider', 'hall', 'tables', 'contemporary', 'office', 'rack', 'tv'}
+----------------
+
+
+
+Avg Accuracy of ner_model_250it_35_drp_long_pn: 0.7657467532467532
+---------------------------------------- 
+
+
+
+
+---------------------------------------- 
+
+Testing Model ner_model_250it_35_drp_short_pn
+
+Test Case [0]
+[Automatic Test]  Products matched:      4/22
+[Revisioned Test] Products matched:      0/2
+Product Name as in Website:              Factory Buys 32cm Euro Top Mattress - King
+Words in the product name to look for:   {'cart', 'leather', 'table', 'pet', 'marble', 'king', 'white', 'black', 'dining', 'round', 'bed', 'factory', 'led', 'storage', 'euro', 'platform', 'outdoor', 'frame', 'size', 'mattress', 'buys', '32cm'}
+Words found in the whole text:           {'storage', 'platform', 'king', 'led'}
+----------------
+Test Case [1]
+[Automatic Test]  Products matched:      8/13
+[Revisioned Test] Products matched:      2/2
+Product Name as in Website:              Beadlight Cirrus LED Reading Light
+Words in the product name to look for:   {'sconce', 'outdoor', 'cart', 'finish', 'leather', 'wall', 'led', 'black', 'beadlight', 'cirrus', 'light', 'bed', 'reading'}
+Words found in the whole text:           {'sconce', 'outdoor', 'cart', 'wall', 'black', 'light', 'finish', 'reading'}
+----------------
+Test Case [2]
+[Automatic Test]  Products matched:      7/13
+[Revisioned Test] Products matched:      2/2
+Product Name as in Website:              Hamar Plant Stand - Ash
+Words in the product name to look for:   {'hamar', 'plant', 'cart', 'gift', 'brand', 'ash', 'room', 'cushion', 'stand', 'solid', 'modern', 'platform', 'small'}
+Words found in the whole text:           {'plant', 'gift', 'cart', 'brand', 'stand', 'platform', 'small'}
+----------------
+Test Case [3]
+[Automatic Test]  Products matched:      5/11
+[Revisioned Test] Products matched:      0/1
+Product Name as in Website:              
+Words in the product name to look for:   {'coffee', '28m', 'gold', 'living', 'tv', 'dining', 'modern', 'sofa', 'table', 'yukon', 'cabinet'}
+Words found in the whole text:           {'coffee', 'gold', 'living', 'dining', 'modern'}
+----------------
+Test Case [4]
+[Automatic Test]  Products matched:      13/15
+[Revisioned Test] Products matched:      2/6
+Product Name as in Website:              Alexander 3 Seater Sofa / Simja 6 Piece Alfresco Setting / Recycled Pine TV Cabinet / Yukon 2.8m Dining Table
+Words in the product name to look for:   {'planters', 'coat', 'lounge', 'coffee', 'outdoor', 'cart', 'room', 'divider', 'wall', 'hall', 'dining', 'contemporary', 'office', 'rack', 'tv'}
+Words found in the whole text:           {'planters', 'coat', 'coffee', 'outdoor', 'cart', 'divider', 'wall', 'hall', 'dining', 'contemporary', 'office', 'rack', 'tv'}
+----------------
+
+
+
+Avg Accuracy of ner_model_250it_35_drp_short_pn: 0.998041958041958
+---------------------------------------- 
+
+
+
+
+---------------------------------------- 
+
+Testing Model ner_model_350it_15_drp_long_pn
+
+Test Case [0]
+[Automatic Test]  Products matched:      10/21
+[Revisioned Test] Products matched:      0/2
+Product Name as in Website:              Factory Buys 32cm Euro Top Mattress - King
+Words in the product name to look for:   {'cart', 'leather', 'pet', 'marble', 'king', 'white', 'black', 'dining', 'wooden', 'round', 'factory', 'led', 'storage', 'euro', 'platform', 'outdoor', 'frame', 'size', 'mattress', 'buys', '32cm'}
+Words found in the whole text:           {'king', 'outdoor', 'round', 'frame', 'size', 'storage', 'pet', 'platform', 'factory', 'marble'}
+----------------
+Test Case [1]
+[Automatic Test]  Products matched:      6/11
+[Revisioned Test] Products matched:      2/2
+Product Name as in Website:              Beadlight Cirrus LED Reading Light
+Words in the product name to look for:   {'sconce', 'outdoor', 'cart', 'finish', 'leather', 'led', 'black', 'beadlight', 'cirrus', 'light', 'reading'}
+Words found in the whole text:           {'sconce', 'outdoor', 'cart', 'black', 'light', 'reading'}
+----------------
+Test Case [2]
+[Automatic Test]  Products matched:      4/11
+[Revisioned Test] Products matched:      1/2
+Product Name as in Website:              Hamar Plant Stand - Ash
+Words in the product name to look for:   {'hamar', 'plant', 'cart', 'ash', 'brand', 'room', 'cushion', 'solid', 'modern', 'platform', 'small'}
+Words found in the whole text:           {'brand', 'modern', 'plant', 'cart'}
+----------------
+Test Case [3]
+[Automatic Test]  Products matched:      2/12
+[Revisioned Test] Products matched:      0/1
+Product Name as in Website:              
+Words in the product name to look for:   {'coffee', 'chairs', '28m', 'gold', 'living', 'tv', 'dining', 'modern', 'sofa', 'tables', 'yukon', 'cabinet'}
+Words found in the whole text:           {'gold', 'living'}
+----------------
+Test Case [4]
+[Automatic Test]  Products matched:      13/16
+[Revisioned Test] Products matched:      1/6
+Product Name as in Website:              Alexander 3 Seater Sofa / Simja 6 Piece Alfresco Setting / Recycled Pine TV Cabinet / Yukon 2.8m Dining Table
+Words in the product name to look for:   {'planters', 'coat', 'lounge', 'coffee', 'outdoor', 'cart', 'room', 'chairs', 'divider', 'hall', 'dining', 'tables', 'contemporary', 'office', 'rack', 'tv'}
+Words found in the whole text:           {'planters', 'coat', 'coffee', 'outdoor', 'cart', 'chairs', 'divider', 'hall', 'tables', 'contemporary', 'office', 'rack', 'tv'}
+----------------
+
+
+
+Avg Accuracy of ner_model_350it_15_drp_long_pn: 0.8062229437229437
+---------------------------------------- 
+
+
+
+
+---------------------------------------- 
+
+Testing Model ner_model_350it_15_drp_short_pn
+
+Test Case [0]
+[Automatic Test]  Products matched:      10/22
+[Revisioned Test] Products matched:      0/2
+Product Name as in Website:              Factory Buys 32cm Euro Top Mattress - King
+Words in the product name to look for:   {'cart', 'leather', 'table', 'pet', 'marble', 'king', 'white', 'black', 'dining', 'round', 'bed', 'factory', 'led', 'storage', 'euro', 'platform', 'outdoor', 'frame', 'size', 'mattress', 'buys', '32cm'}
+Words found in the whole text:           {'king', 'round', 'led', 'storage', 'factory', 'black', 'pet', 'platform', 'bed', 'marble'}
+----------------
+Test Case [1]
+[Automatic Test]  Products matched:      8/13
+[Revisioned Test] Products matched:      2/2
+Product Name as in Website:              Beadlight Cirrus LED Reading Light
+Words in the product name to look for:   {'sconce', 'outdoor', 'cart', 'finish', 'leather', 'wall', 'led', 'black', 'beadlight', 'cirrus', 'light', 'bed', 'reading'}
+Words found in the whole text:           {'sconce', 'finish', 'outdoor', 'cart', 'wall', 'black', 'light', 'reading'}
+----------------
+Test Case [2]
+[Automatic Test]  Products matched:      7/13
+[Revisioned Test] Products matched:      2/2
+Product Name as in Website:              Hamar Plant Stand - Ash
+Words in the product name to look for:   {'hamar', 'plant', 'cart', 'gift', 'brand', 'ash', 'room', 'cushion', 'stand', 'solid', 'modern', 'platform', 'small'}
+Words found in the whole text:           {'plant', 'gift', 'cart', 'brand', 'room', 'stand', 'small'}
+----------------
+Test Case [3]
+[Automatic Test]  Products matched:      3/11
+[Revisioned Test] Products matched:      0/1
+Product Name as in Website:              
+Words in the product name to look for:   {'coffee', '28m', 'gold', 'living', 'tv', 'dining', 'modern', 'sofa', 'table', 'yukon', 'cabinet'}
+Words found in the whole text:           {'modern', 'gold', 'living'}
+----------------
+Test Case [4]
+[Automatic Test]  Products matched:      12/15
+[Revisioned Test] Products matched:      1/6
+Product Name as in Website:              Alexander 3 Seater Sofa / Simja 6 Piece Alfresco Setting / Recycled Pine TV Cabinet / Yukon 2.8m Dining Table
+Words in the product name to look for:   {'planters', 'coat', 'lounge', 'coffee', 'outdoor', 'cart', 'room', 'divider', 'wall', 'hall', 'dining', 'contemporary', 'office', 'rack', 'tv'}
+Words found in the whole text:           {'planters', 'coat', 'coffee', 'outdoor', 'cart', 'divider', 'wall', 'hall', 'contemporary', 'office', 'rack', 'tv'}
+----------------
+
+
+
+Avg Accuracy of ner_model_350it_15_drp_short_pn: 0.9695571095571095
+---------------------------------------- 
+
+
+
+
+---------------------------------------- 
+
+Testing Model ner_model_350it_35_drp_long_pn
+
+Test Case [0]
+[Automatic Test]  Products matched:      7/21
+[Revisioned Test] Products matched:      1/2
+Product Name as in Website:              Factory Buys 32cm Euro Top Mattress - King
+Words in the product name to look for:   {'cart', 'leather', 'pet', 'marble', 'king', 'white', 'black', 'dining', 'wooden', 'round', 'factory', 'led', 'storage', 'euro', 'platform', 'outdoor', 'frame', 'size', 'mattress', 'buys', '32cm'}
+Words found in the whole text:           {'outdoor', 'cart', 'size', 'mattress', 'storage', 'pet', 'platform'}
+----------------
+Test Case [1]
+[Automatic Test]  Products matched:      8/11
+[Revisioned Test] Products matched:      2/2
+Product Name as in Website:              Beadlight Cirrus LED Reading Light
+Words in the product name to look for:   {'sconce', 'outdoor', 'cart', 'finish', 'leather', 'led', 'black', 'beadlight', 'cirrus', 'light', 'reading'}
+Words found in the whole text:           {'sconce', 'outdoor', 'cart', 'leather', 'black', 'light', 'finish', 'reading'}
+----------------
+Test Case [2]
+[Automatic Test]  Products matched:      2/11
+[Revisioned Test] Products matched:      1/2
+Product Name as in Website:              Hamar Plant Stand - Ash
+Words in the product name to look for:   {'hamar', 'plant', 'cart', 'ash', 'brand', 'room', 'cushion', 'solid', 'modern', 'platform', 'small'}
+Words found in the whole text:           {'plant', 'cart'}
+----------------
+Test Case [3]
+[Automatic Test]  Products matched:      3/12
+[Revisioned Test] Products matched:      0/1
+Product Name as in Website:              
+Words in the product name to look for:   {'coffee', 'chairs', '28m', 'gold', 'living', 'tv', 'dining', 'modern', 'sofa', 'tables', 'yukon', 'cabinet'}
+Words found in the whole text:           {'coffee', 'gold', 'living'}
+----------------
+Test Case [4]
+[Automatic Test]  Products matched:      13/16
+[Revisioned Test] Products matched:      1/6
+Product Name as in Website:              Alexander 3 Seater Sofa / Simja 6 Piece Alfresco Setting / Recycled Pine TV Cabinet / Yukon 2.8m Dining Table
+Words in the product name to look for:   {'planters', 'coat', 'lounge', 'coffee', 'outdoor', 'cart', 'room', 'chairs', 'divider', 'hall', 'dining', 'tables', 'contemporary', 'office', 'rack', 'tv'}
+Words found in the whole text:           {'planters', 'coat', 'coffee', 'outdoor', 'cart', 'chairs', 'divider', 'hall', 'tables', 'contemporary', 'office', 'rack', 'tv'}
+----------------
+
+
+
+Avg Accuracy of ner_model_350it_35_drp_long_pn: 0.8943181818181818
+---------------------------------------- 
+
+
+
+
+---------------------------------------- 
+
+Testing Model ner_model_350it_35_drp_short_pn
+
+Test Case [0]
+[Automatic Test]  Products matched:      7/22
+[Revisioned Test] Products matched:      0/2
+Product Name as in Website:              Factory Buys 32cm Euro Top Mattress - King
+Words in the product name to look for:   {'cart', 'leather', 'table', 'pet', 'marble', 'king', 'white', 'black', 'dining', 'round', 'bed', 'factory', 'led', 'storage', 'euro', 'platform', 'outdoor', 'frame', 'size', 'mattress', 'buys', '32cm'}
+Words found in the whole text:           {'king', 'cart', 'outdoor', 'storage', 'euro', 'platform', 'bed'}
+----------------
+Test Case [1]
+[Automatic Test]  Products matched:      7/13
+[Revisioned Test] Products matched:      2/2
+Product Name as in Website:              Beadlight Cirrus LED Reading Light
+Words in the product name to look for:   {'sconce', 'outdoor', 'cart', 'finish', 'leather', 'wall', 'led', 'black', 'beadlight', 'cirrus', 'light', 'bed', 'reading'}
+Words found in the whole text:           {'sconce', 'outdoor', 'cart', 'wall', 'black', 'light', 'reading'}
+----------------
+Test Case [2]
+[Automatic Test]  Products matched:      9/13
+[Revisioned Test] Products matched:      2/2
+Product Name as in Website:              Hamar Plant Stand - Ash
+Words in the product name to look for:   {'hamar', 'plant', 'cart', 'gift', 'brand', 'ash', 'room', 'cushion', 'stand', 'solid', 'modern', 'platform', 'small'}
+Words found in the whole text:           {'plant', 'gift', 'cart', 'brand', 'ash', 'cushion', 'stand', 'platform', 'small'}
+----------------
+Test Case [3]
+[Automatic Test]  Products matched:      2/11
+[Revisioned Test] Products matched:      0/1
+Product Name as in Website:              
+Words in the product name to look for:   {'coffee', '28m', 'gold', 'living', 'tv', 'dining', 'modern', 'sofa', 'table', 'yukon', 'cabinet'}
+Words found in the whole text:           {'gold', 'living'}
+----------------
+Test Case [4]
+[Automatic Test]  Products matched:      14/15
+[Revisioned Test] Products matched:      2/6
+Product Name as in Website:              Alexander 3 Seater Sofa / Simja 6 Piece Alfresco Setting / Recycled Pine TV Cabinet / Yukon 2.8m Dining Table
+Words in the product name to look for:   {'planters', 'coat', 'lounge', 'coffee', 'outdoor', 'cart', 'room', 'divider', 'wall', 'hall', 'dining', 'contemporary', 'office', 'rack', 'tv'}
+Words found in the whole text:           {'planters', 'coat', 'lounge', 'coffee', 'outdoor', 'cart', 'divider', 'wall', 'hall', 'dining', 'contemporary', 'office', 'rack', 'tv'}
+----------------
+
+
+
+Avg Accuracy of ner_model_350it_35_drp_short_pn: 0.9994871794871795
+---------------------------------------- 
+
+
+
+
+---------------------------------------- 
+
+Testing Model ner_model_500it_35_drp_long_pn
+
+Test Case [0]
+[Automatic Test]  Products matched:      7/21
+[Revisioned Test] Products matched:      0/2
+Product Name as in Website:              Factory Buys 32cm Euro Top Mattress - King
+Words in the product name to look for:   {'cart', 'leather', 'pet', 'marble', 'king', 'white', 'black', 'dining', 'wooden', 'round', 'factory', 'led', 'storage', 'euro', 'platform', 'outdoor', 'frame', 'size', 'mattress', 'buys', '32cm'}
+Words found in the whole text:           {'king', 'outdoor', 'cart', 'size', 'storage', 'wooden', 'pet'}
+----------------
+Test Case [1]
+[Automatic Test]  Products matched:      7/11
+[Revisioned Test] Products matched:      2/2
+Product Name as in Website:              Beadlight Cirrus LED Reading Light
+Words in the product name to look for:   {'sconce', 'outdoor', 'cart', 'finish', 'leather', 'led', 'black', 'beadlight', 'cirrus', 'light', 'reading'}
+Words found in the whole text:           {'sconce', 'outdoor', 'cart', 'leather', 'black', 'light', 'reading'}
+----------------
+Test Case [2]
+[Automatic Test]  Products matched:      4/11
+[Revisioned Test] Products matched:      1/2
+Product Name as in Website:              Hamar Plant Stand - Ash
+Words in the product name to look for:   {'hamar', 'plant', 'cart', 'ash', 'brand', 'room', 'cushion', 'solid', 'modern', 'platform', 'small'}
+Words found in the whole text:           {'small', 'plant', 'cart', 'cushion'}
+----------------
+Test Case [3]
+[Automatic Test]  Products matched:      3/12
+[Revisioned Test] Products matched:      0/1
+Product Name as in Website:              
+Words in the product name to look for:   {'coffee', 'chairs', '28m', 'gold', 'living', 'tv', 'dining', 'modern', 'sofa', 'tables', 'yukon', 'cabinet'}
+Words found in the whole text:           {'coffee', 'gold', 'living'}
+----------------
+Test Case [4]
+[Automatic Test]  Products matched:      13/16
+[Revisioned Test] Products matched:      1/6
+Product Name as in Website:              Alexander 3 Seater Sofa / Simja 6 Piece Alfresco Setting / Recycled Pine TV Cabinet / Yukon 2.8m Dining Table
+Words in the product name to look for:   {'planters', 'coat', 'lounge', 'coffee', 'outdoor', 'cart', 'room', 'chairs', 'divider', 'hall', 'dining', 'tables', 'contemporary', 'office', 'rack', 'tv'}
+Words found in the whole text:           {'planters', 'coat', 'coffee', 'outdoor', 'cart', 'chairs', 'divider', 'hall', 'tables', 'contemporary', 'office', 'rack', 'tv'}
+----------------
+
+
+
+Avg Accuracy of ner_model_500it_35_drp_long_pn: 0.8125
+---------------------------------------- 
+
+
+
+
+---------------------------------------- 
+
+Testing Model ner_model_500it_35_drp_short_pn
+
+Test Case [0]
+[Automatic Test]  Products matched:      10/22
+[Revisioned Test] Products matched:      0/2
+Product Name as in Website:              Factory Buys 32cm Euro Top Mattress - King
+Words in the product name to look for:   {'cart', 'leather', 'table', 'pet', 'marble', 'king', 'white', 'black', 'dining', 'round', 'bed', 'factory', 'led', 'storage', 'euro', 'platform', 'outdoor', 'frame', 'size', 'mattress', 'buys', '32cm'}
+Words found in the whole text:           {'king', 'cart', 'outdoor', 'led', 'factory', 'euro', 'round', 'platform', 'bed', 'marble'}
+----------------
+Test Case [1]
+[Automatic Test]  Products matched:      7/13
+[Revisioned Test] Products matched:      2/2
+Product Name as in Website:              Beadlight Cirrus LED Reading Light
+Words in the product name to look for:   {'sconce', 'outdoor', 'cart', 'finish', 'leather', 'wall', 'led', 'black', 'beadlight', 'cirrus', 'light', 'bed', 'reading'}
+Words found in the whole text:           {'sconce', 'outdoor', 'cart', 'wall', 'light', 'finish', 'reading'}
+----------------
+Test Case [2]
+[Automatic Test]  Products matched:      9/13
+[Revisioned Test] Products matched:      2/2
+Product Name as in Website:              Hamar Plant Stand - Ash
+Words in the product name to look for:   {'hamar', 'plant', 'cart', 'gift', 'brand', 'ash', 'room', 'cushion', 'stand', 'solid', 'modern', 'platform', 'small'}
+Words found in the whole text:           {'plant', 'gift', 'cart', 'brand', 'ash', 'cushion', 'stand', 'platform', 'small'}
+----------------
+Test Case [3]
+[Automatic Test]  Products matched:      3/11
+[Revisioned Test] Products matched:      0/1
+Product Name as in Website:              
+Words in the product name to look for:   {'coffee', '28m', 'gold', 'living', 'tv', 'dining', 'modern', 'sofa', 'table', 'yukon', 'cabinet'}
+Words found in the whole text:           {'coffee', 'gold', 'living'}
+----------------
+Test Case [4]
+[Automatic Test]  Products matched:      12/15
+[Revisioned Test] Products matched:      1/6
+Product Name as in Website:              Alexander 3 Seater Sofa / Simja 6 Piece Alfresco Setting / Recycled Pine TV Cabinet / Yukon 2.8m Dining Table
+Words in the product name to look for:   {'planters', 'coat', 'lounge', 'coffee', 'outdoor', 'cart', 'room', 'divider', 'wall', 'hall', 'dining', 'contemporary', 'office', 'rack', 'tv'}
+Words found in the whole text:           {'planters', 'coat', 'coffee', 'outdoor', 'cart', 'divider', 'wall', 'hall', 'contemporary', 'office', 'rack', 'tv'}
+----------------
+
+
+
+Avg Accuracy of ner_model_500it_35_drp_short_pn: 0.9849417249417248
+---------------------------------------- 
+
+
+
+
+ ---------------------------------------- 
+
+ner_model_350it_35_drp_short_pn          0.9994871794871795
+ner_model_250it_35_drp_short_pn          0.998041958041958
+ner_model_500it_35_drp_short_pn          0.9849417249417248
+ner_model_350it_15_drp_short_pn          0.9695571095571095
+ner_model_250it_15_drp_short_pn          0.9553846153846154
+ner_model_350it_35_drp_long_pn           0.8943181818181818
+ner_model_250it_15_drp_long_pn           0.8741341991341992
+ner_model_500it_35_drp_long_pn           0.8125
+ner_model_350it_15_drp_long_pn           0.8062229437229437
+ner_model_250it_35_drp_long_pn           0.7657467532467532
